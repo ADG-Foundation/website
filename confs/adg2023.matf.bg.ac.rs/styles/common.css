@@ -1,0 +1,168 @@
+body {
+ color: rgb(50,50,50);
+ font-size: 16px;
+ font-weight: normal;
+ font-family: "Liberation Sans", Arial, sans-serif;
+ margin: 0px;
+ padding: 0px;
+}
+
+
+div#page_header_container {
+   background-color: rgb(44, 64, 63);
+   padding: 0px;
+   overflow: auto;
+}
+
+div#page_header_container header {
+   overflow: auto;
+}
+
+div#page_header_container div#banner img {
+   height: 150px;
+   width: 100%;
+}
+
+div#adg {
+  color: rgb(200,200,200);
+  float: left;
+  clear: none;
+}
+
+div#adg h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#page_title {
+    color: rgb(200,200,200);
+    float: left;
+    clear: none;
+}
+
+
+div#page_title h2 {
+  margin: 0px auto 3px 0px;
+  padding: 0px;
+}
+
+
+div#upper_nav_container {
+  overflow: auto;
+}
+
+div#upper_nav_buttons {
+ display: none;
+}
+
+nav#upper_nav {
+  color: rgb(50,50,50);
+}
+
+div.upper_nav_item > a, div.upper_nav_item > a:visited, div.upper_nav_item > span {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+div.upper_nav_item div.upper_nav_section a
+{
+ display: block;
+ background-color: rgb(50,50,50);
+ color: rgb(200,200,200);
+ text-decoration: none;
+ padding: 1px 15px 2px 15px;
+ font-size: 16px;
+ vertical-align: middle;
+ text-decoration: none;
+}
+
+div.upper_nav_item div.upper_nav_section a:hover {
+ background-color: rgb(44, 64, 63);
+ color: rgb(200,200,200);
+}
+
+main {
+ text-align: left;
+}
+
+main header h1 {
+  border-bottom: solid 2px rgb(50,50,50);
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+main section {
+  border-bottom: solid 2px rgb(50,50,50);
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+main a {
+  color: rgb(44, 64, 63);
+}
+
+
+main a:hover {
+     color: rgb(100,100,100);
+}
+
+
+main section li {
+  margin-top: 10px;
+}
+
+main article {
+   border-bottom: solid 2px rgb(50,50,50);
+   margin-bottom: 15px;
+   padding-bottom: 5px;
+   overflow: auto;
+}
+
+main article div.date {
+   float: right;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid rgb(50,50,50);
+    padding: 2px;
+}
+
+section#inst div {
+    overflow: auto;
+}
+
+section#inst img {
+    float: left;
+    clear: none;
+    height: 100px;
+}
+
+section#inst p {
+   margin-top: 40px;
+   margin-bottom: 70px;
+   margin-right: 100px;
+   float: left;
+   clear: none;
+}
+
+div.gallery {
+ text-align: center;
+ width: 100%;
+}
+
+div.gallery img {
+ height: 180px;
+ border: 2px rgb(200,200,200) solid;
+ border-radius: 2px;
+
+}

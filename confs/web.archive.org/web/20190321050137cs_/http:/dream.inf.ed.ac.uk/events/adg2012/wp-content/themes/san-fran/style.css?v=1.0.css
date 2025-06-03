@@ -1,0 +1,608 @@
+/*
+Theme Name: San Fran
+Theme URI: http://theme.fm/themes/san-fran/
+Description: San Fran is a blogging theme focused on typography and content. Several different color schemes to choose from.
+Author: Theme.fm
+Author URI: http://theme.fm
+Version: 1.0.3
+Tags: two-columns, fixed-width, custom-colors, custom-menu, theme-options, threaded-comments, translation-ready, sticky-post
+
+License: GPLv2
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+body {
+	padding:0;
+	margin:0;
+	font-size:12px;
+	line-height: 150%;
+}
+
+p { 
+	margin: 10px 0;
+	line-height: 150%;
+	font-size: 12px;
+}
+
+/* Header navigation menu*/
+.header-fill {
+	min-height: 30px;
+	float: left;
+	width: 100%;
+}
+
+#navigation div.menu > ul,
+#navigation ul.menu {
+	list-style: none;
+	float: left;
+	position: relative;
+	font-size:12px;
+	margin-left:0px;
+}
+
+#navigation div.menu > ul > li,
+#navigation ul.menu > li{
+	display:block;
+	float:left;
+	padding-right:20px;
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+}
+
+#navigation ul.menu ul.sub-menu,
+#navigation div.menu ul.children {
+	display: none;
+	position: absolute;
+	list-style: none;
+	margin: 0;
+	left: -8px;
+	margin-top: -2px;
+}
+
+#navigation ul.menu ul.sub-menu li,
+#navigation div.menu ul.children li {
+	margin: 2px 8px;
+}
+
+#navigation ul.menu li:hover ul.sub-menu,
+#navigation div.menu li:hover ul.children {
+	display: block;
+}
+
+/* Header logo and description*/
+#logo {
+	margin-top:60px;
+	margin-bottom:8px;
+	border:none;
+	text-decoration:none;
+	display:block;
+	float:left;
+}
+
+#description {
+	font-size:12px;
+	display:block;
+	margin-bottom:40px;
+	text-decoration:none;
+	float:left;
+	clear: both;
+}
+/* Post elements*/
+.post {
+	position: relative;
+}
+.post-separator {
+	display: block;
+	clear: both;
+	margin-bottom: 40px;
+	height: 1px;
+}
+
+.post-format-icon {
+	height:40px;
+	width:40px;
+	display:block;
+	position: absolute;
+	left: -50px;
+	background-position: 50% 0;
+}
+
+.format-image .post-format-icon {
+	background:transparent url(https://web.archive.org/web/20191027101622im_/http://dream.inf.ed.ac.uk/events/adg2012/wp-content/themes/san-fran/images/post-formats/image.png) no-repeat;
+}
+.format-gallery .post-format-icon {
+	background:transparent url(https://web.archive.org/web/20191027101622im_/http://dream.inf.ed.ac.uk/events/adg2012/wp-content/themes/san-fran/images/post-formats/imagegallery.png) no-repeat;
+}
+.format-quote .post-format-icon {
+	background:transparent url(https://web.archive.org/web/20191027101622im_/http://dream.inf.ed.ac.uk/events/adg2012/wp-content/themes/san-fran/images/post-formats/quote.png) no-repeat;
+}
+.format-video .post-format-icon {
+	background:transparent url(https://web.archive.org/web/20191027101622im_/http://dream.inf.ed.ac.uk/events/adg2012/wp-content/themes/san-fran/images/post-formats/video.png) no-repeat;
+}
+.format-status .post-format-icon {
+	background:transparent url(https://web.archive.org/web/20191027101622im_/http://dream.inf.ed.ac.uk/events/adg2012/wp-content/themes/san-fran/images/post-formats/status.png) no-repeat;
+}
+.format-link .post-format-icon {
+	background:transparent url(https://web.archive.org/web/20191027101622im_/http://dream.inf.ed.ac.uk/events/adg2012/wp-content/themes/san-fran/images/post-formats/link.png) no-repeat;
+}
+.format-chat .post-format-icon {
+	background:transparent url(https://web.archive.org/web/20191027101622im_/http://dream.inf.ed.ac.uk/events/adg2012/wp-content/themes/san-fran/images/post-formats/chat.png) no-repeat;
+}
+
+.post-date {
+	font-size:12px;
+	margin-bottom:10px;
+	float:left;
+	display:block;
+	width:100%;
+}
+
+.post-text img {
+	border:1px solid #FFF;
+}
+
+.post-text blockquote {
+	display:block;
+	padding-left:15px;
+}
+
+.post-text.post-text-archive {
+	margin-top: -14px;
+}
+.sticky{
+}
+.bypostauthor{
+}
+.wp-smiley {
+	border:none !important;
+}
+.post-meta {
+	float:left;
+	margin-top:10px;
+	clear:both;
+	padding-left: 6px;
+	padding-right: 14px;
+	overflow: hidden;
+	max-width: 410px;
+	height: 22px;
+}
+.post-meta-mini {
+	height: 22px;
+	padding-left: 6px;
+	padding-right: 14px;
+	overflow: hidden;
+}
+.post-meta-legacy {
+	margin-top: 0px;
+	font-size: 11px;
+}
+.post-title {
+	margin-bottom: 0;
+	margin-top: 4px;
+}
+.search-item-title {
+	margin-bottom: 0;
+}
+.page-link{
+	word-spacing:4px;
+}
+.page-link a{
+	padding:5px;
+	display:inline-block;
+	text-align:center;
+}
+
+/* Pagination elements*/
+.left,
+.nav-previous{
+	float:left;
+}
+.right, .nav-next {
+	float:right;
+}
+/* Comment form elements*/
+#comments {
+	clear:both;
+	float:left;
+	margin-top:15px;
+}
+#comments-title {
+	margin-top:30px;
+	font-size:20px;
+}
+#reply-title {
+	margin-bottom:10px;
+	float:left;
+}
+#commentform,
+#commentform label {
+	float:left;
+	clear:left;
+}
+.required {
+	float:left;
+}
+#commentform input[type="text"],
+#commentform textarea,
+.form-allowed-tags {
+	float:left;
+	clear:both;
+	margin-bottom:20px;
+	width:100%;
+	max-width:500px;
+}
+.form-submit{
+	float:left;
+	clear:both;
+}
+.pingpack, .commentlist > li, .comment, .commentlist{
+	display:block;
+	width:98%;
+}
+img.avatar {
+	box-shadow: 0px 0px 3px #666;
+	position: absolute;
+	left: -70px;
+}
+
+.comment-author-name {
+	font-size: 20px;
+	margin-top:-7px;
+}
+
+.comment-author-meta {
+	font-size: 12px;
+	margin-top:-13px;
+}
+
+.comment-body {
+	float: left;
+	margin-left: 70px;
+	position: relative;
+}
+.comment-wrapper {
+	margin: 30px 0;
+}
+.commentlist ul.children {
+	margin-left: 70px;
+}
+.commentlist {
+	margin-left: 0px;
+}
+.commentlist #respond {
+	margin-left: 70px;
+}
+
+/* Sidebar elements*/
+#sidebar {
+	/*border-left:1px solid #89A5B5;*/
+	/*padding-left:22px;*/
+}
+#sidebar .widget {
+	margin-left: 16px;
+}
+.search-input, .widget {
+	margin-bottom:20px;
+}
+.search-input {
+	width: 190px;
+}
+.search-input,
+#commentform textarea,
+#commentform input[type="text"],
+input[type="password"] {
+	border:none;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding:5px;
+	color:#999;
+	margin-top:5px;
+	margin-bottom:5px;
+}
+.heading {
+	width:100%;
+	display:block;
+	margin-bottom:8px;
+	margin-top: 20px;
+}
+#wp-calendar tbody tr td > a{
+	font-weight:bold;
+	font-size:15px;
+}
+.widget {
+	font-size:12px;
+}
+.widget ul {
+	margin:0;
+	padding:0;
+}
+.widget ul li {
+	list-style:none;
+}
+.widget ul li a {
+	text-decoration:none;
+	font-size:12px;
+}
+#sidebar ul ul{
+	margin-left:15px;
+}
+/* Footer elements*/
+.footer {
+	margin-top: 40px;
+}
+.footer p,
+.footer a {
+	font-size: 11px;
+}
+.footer p {
+	width:400px;
+}
+#themefm-credit {
+	margin-top:4px;
+}
+/*
+Resize images to fit the main content area.
+- Applies only to images uploaded via WordPress by targeting size-* classes.
+- Other images will be left alone. Use "size-auto" class to apply to other images.
+*/
+img.size-auto,
+img.size-full,
+img.size-large,
+img.size-medium,
+.attachment img {
+	max-width: 92%; /* When images are too wide for containing element, force them to fit. */
+	height: auto; /* Override height to match resized width for correct aspect ratio. */
+}
+.alignleft,
+img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 24px;
+	margin-top: 4px;
+}
+.alignright,
+img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 24px;
+	margin-top: 4px;
+}
+.aligncenter,
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:10px;
+}
+img.alignleft,
+img.alignright,
+img.aligncenter {
+	margin-bottom: 12px;
+}
+.wp-caption {
+	line-height: 18px;
+	margin-bottom: 20px;
+	max-width: 632px !important; /* prevent too-wide images from breaking layout */
+	padding: 4px;
+	text-align: center;
+}
+.wp-caption img {
+	margin: 5px 5px 0;
+}
+.wp-caption p.wp-caption-text {
+	text-decoration:underline;
+	font-size: 12px;
+	margin: 5px;
+}
+.wp-smiley {
+	margin: 0;
+}
+.gallery {
+	margin: 0 auto 18px;
+}
+.gallery .gallery-item {
+	float: left;
+	margin-top: 0;
+	text-align: center;
+	width: 33%;
+}
+.gallery-columns-2 .gallery-item {
+	width: 50%;
+}
+.gallery-columns-4 .gallery-item {
+	width: 25%;
+}
+.gallery-columns-2 .attachment-medium {
+	max-width: 92%;
+	height: auto;
+}
+.gallery-columns-4 .attachment-thumbnail {
+	max-width: 84%;
+	height: auto;
+}
+.gallery .gallery-caption {
+	font-size: 12px;
+	margin: 0 0 12px;
+}
+.gallery dl {
+	margin: 0;
+}
+.gallery br+br {
+	display: none;
+}
+#content .attachment img {/* single attachment images should be centered */
+	display: block;
+	margin: 0 auto;
+}
+/* Default tags*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	clear: both;
+}
+a:hover,
+.widget ul li a:hover{
+	text-decoration:underline;
+}
+.post-content a:hover{
+	text-decoration:none;
+}
+
+blockquote {
+	padding-left: 30px;
+	border-left: solid 1px #ddd;
+}
+
+blockquote cite {
+	font-size: 10px;
+	font-style: normal;
+}
+
+blockquote cite::before { content: " ~ ";}
+
+ul, ol {
+	margin-left: 35px;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ol ol {
+    list-style: upper-alpha;
+}
+
+ol ol ol {
+    list-style: lower-roman;
+}
+
+ol ol ol ol {
+    list-style: lower-alpha;
+}
+
+dd{
+	margin-left:15px;
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+big {
+	font-size: 130%;
+}
+
+code,
+tt,
+kbd,
+samp,
+pre {
+	font-family: Consolas, monospace;
+	font-size: 12px;
+}
+
+pre {
+	padding: 16px;
+	border:none;
+}
+
+q::before {
+	content: '"';
+}
+
+q::after {
+	content: '"';
+}
+
+sup, sub {
+	font-size: 12px;
+	position: relative;
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: 0.5ex;
+}
+
+ins {
+	background: #FFC;
+	color:#333;
+	padding:5px;
+	text-shadow:none;
+}
+
+table {
+	width: 100%;
+	margin: 20px 0;
+}
+#wp-calendar {
+	text-align:center;
+	border: none;
+}
+table th {
+	text-align: left;
+	padding: 8px;
+	font-weight: bold;
+}
+table td {
+	padding: 4px 8px;
+}
+.post-content table tr {
+	border-bottom: 1px solid #eee;
+}
+h1 { font-size: 24px; }
+h2 { font-size: 20px; }
+h3 { font-size: 16px; }
+h4 { font-size: 14px; }
+h5 { font-size: 12px; }
+h6 { font-size: 8px; }
+
+dt {
+	font-weight:bold;
+}
+
+small {
+	font-size:11px;
+}
+
+.post-thumbnail {
+	width: 140px;
+	height: 140px;
+	display: block;
+	background: white;
+}
+/*
+     FILE ARCHIVED ON 10:16:22 Oct 27, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:56:41 Feb 03, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.75
+  exclusion.robots: 0.029
+  exclusion.robots.policy: 0.014
+  esindex: 0.013
+  cdx.remote: 22.93
+  LoadShardBlock: 314.47 (3)
+  PetaboxLoader3.datanode: 150.101 (5)
+  PetaboxLoader3.resolve: 204.988 (3)
+  load_resource: 202.205 (2)
+*/

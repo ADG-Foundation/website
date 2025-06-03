@@ -1,0 +1,81 @@
+div#page_header_container {
+ max-width: 970px;
+ margin: 0px auto;
+}
+
+div#page_header_container header {
+ margin-left: 10px;
+}
+
+
+div#adg h1 {
+    font-size: 50px;
+}
+
+div#page_title {
+    margin: 7px 10px;
+}
+
+div#page_title h2 {
+  font-size: 17px;
+}
+
+
+div#upper_nav_container {
+  max-width: 970px;
+  margin: 0px auto 0px auto;
+}
+
+div#upper_nav_buttons {
+ display: none;
+}
+
+nav#upper_nav {
+  display: block !important;
+  float: left;
+  clear: none;
+  margin-left: 0px;
+  margin-top: 2px;
+  padding-left: 10px;
+}
+
+div.upper_nav_item {
+  float: left;
+  clear: none;
+  padding-right: 20px;
+}
+
+div.upper_nav_item > a, div.upper_nav_item > a:visited, div.upper_nav_item > span {
+ width: 100%;
+ padding: 0px;
+}
+
+div.upper_nav_item > a:hover {
+ color: rgb(44, 64, 63);
+ text-decoration: underline;
+}
+
+div.upper_nav_item div.upper_nav_section {
+ position: absolute;
+ display: none;
+}
+
+div.upper_nav_item:hover div.upper_nav_section {
+ position: absolute;
+ display: block;
+}
+
+
+div#main_container {
+ margin: 0px auto 0px auto;
+ max-width: 970px;
+ padding: 0px;
+}
+
+main {
+ margin: 0px 10px;
+}
+
+main p, main li {
+ text-align: justify;
+}

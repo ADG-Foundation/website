@@ -1,0 +1,154 @@
+﻿[Apologies if you receive multiple copies] 
+
+******************************************************************
+                        Final CALL FOR PAPER 
+	  
+
+    !! Submission deadline extended to June 15, 2018 !!
+
+	
+
+                           ADG 2018		     
+12th International Conference on Automated Deduction in Geometry
+	    Nanning, China, September 11-14, 2018
+                  http://adg2018.cc4cm.org/ 
+
+		  In Memory of Wen-tsün Wu
+******************************************************************
+
+
+
+About ADG
+=========
+ ADG is a forum dedicated to the exchange of ideas and views, to the 
+ presentation of research results and progress, and to the demonstration 
+ of software tools on the intersection between geometry, computation, 
+ and automated reasoning. ADG organizes a workshop every two years. 
+ The previous editions were held in Strasbourg (France) 2016, Coimbra 
+ (Portugal) 2014, Edinburgh (UK) 2012, Munich (Germany) 2010, Shanghai 
+ (China) 2008, Pontevedra (Spain) 2006, Gainesville (USA) 2004, Linz 
+ (Austria) 2002, Zurich (Switzerland) 2000, Beijing (China) 1998, and 
+ Toulouse (France) 1996.
+
+ The twelfth conference ADG 2018 will take place in Nanning, China, from
+ September 11 to September 14, 2018, in memory of Wen-tsün Wu, founder 
+ of the Chinese school of mathematics mechanization. 
+
+Aim and Scope 
+============= 
+ ADG 2018 aims at gathering researchers, engineers, and others interested
+ in exploring methods for automated reasoning and symbolic computation in 
+ geometry, to discuss theoretical and practical challenges, and to present 
+ recent research progress and results dedicated (not exhausted) in 
+
+  - polynomial algebra, invariant and coordinate-free methods, probabilistic, 
+    synthetic, and logic approaches, techniques for automated geometric 
+    reasoning from discrete mathematics, combinatorics, and numerics;
+  - symbolic and numeric methods for geometric computation, geometric constraint 
+    solving, automated generation/reasoning and manipulation with diagrams;
+  - design and implementation of geometry software, special-purpose tools, 
+    automated theorem provers, experimental studies;
+  - applications of ADG to mechanics, geometric modeling, CAGD/CAD, computer 
+    vision, robotics, and education.
+
+Important Dates 
+=============== 
+
+  - Deadline for extended abstract/full paper submission    June 15, 2018 (extended)
+  - Notification on all papers				    July 15, 2018 
+  - Camera-ready submission				    July 31, 2018 
+  - Early registration deadline				    August 1, 2018 
+  - Conference taking place				    September 11-14, 2018 
+
+
+Submission Guideline 
+====================
+ Original research papers in English, including experimental work and 
+ work in progress, are welcome. The following two types of submissions
+ are invited:
+
+ (1) Full paper: maximum 20 pages
+ (2) Extended abstract addressing the following aspects explicitly:
+     - Problem: what is the problem/question/objective?
+     - Motivation: why do we work on the problem and what is the importance?
+     - State of the art: what has been done already on the problem?
+     - Contribution: what is the main original contribution?
+     - Main idea: what is the main idea underlying the contribution?
+
+ Submissions should follow the standard Springer LNCS Proceedings format. 
+ Electronic submission as PDF is required via EasyChair at 
+
+            http://www.easychair.org/conferences/?conf=adg2018. 
+
+ If you have any problem with the submission of your paper, or questions 
+ concerning ADG 2018 or EasyChair, please contact chenxiaoyu@buaa.edu.cn. 
+ At least one author of each accepted submission must register at ADG 2018. 
+   
+Refereeing and Publication
+==========================
+ The submitted contributions will be subject to a summary review by the Program 
+ Committee, bearing in mind that this first review is mainly for presentation, 
+ NOT for publication. Digital publication of the full papers/extended abstracts
+ accepted for presentation will be available at the conference. The authors of the 
+ full papers/extended abstracts accepted for presentation at the conference will be 
+ invited to submit their full and/or revised papers for publication in a formal 
+ proceedings of ADG 2018 after the conference. The full papers (submitted after the 
+ conference) will be formally reviewed by PC members and external referees. All 
+ participants are encouraged to bring along posters on their work (irrespective
+ of whether it was presented at the conference or not) for display during ADG 2018.
+
+ The accepted full papers will be published as a special issue of some journal or 
+ in the Springer Lecture Notes in Artificial Intelligence (LNAI) series or Lecture 
+ Notes in Computer Science (LNCS) series. The proceedings of ADG 1996, ADG 1998, 
+ ADG 2000, ADG 2002, ADG 2004, ADG 2006, ADG 2010, ADG 2012, and ADG 2014 appeared
+ as LNAI 1360, LNAI 1669, LNAI 2061, LNAI 2930, LNAI 3763, LNAI 4869, LNCS 6877,
+ LNAI 7993, and LNAI 9201, respectively.    
+   
+Invited Speakers 
+================
+
+ - Jacques Fleuriot (University of Edinburgh, UK)
+ - Xiao-Shan Gao (Chinese Academy of Sciences, China)
+ - Pascal Schreck (University of Strasbourg, France)
+ - Chuanming Zong (Tianjin University, China)
+
+Organization 
+============
+
+ General Chair
+ 
+ - Dongming Wang (Beihang University and Guangxi University for Nationalities, China)
+
+ Program Committee
+
+ - Hongbo Li (Chinese Academy of Sciences, China), Chair 
+
+ - Francisco Botana (University of Vigo, Spain)
+ - Falai Chen (University of Science and Technology of China, China)
+ - Xiaoyu Chen (Beihang University, China)
+ - Yong Feng (Chinese Academy of Sciences, China)
+ - Lei Huang (Chinese Academy of Sciences, China)
+ - Hoon Hong (North Carolina State University, USA)
+ - Tetsuo Ida (University of Tsukuba, Japan)
+ - Predrag Janičić (University of Belgrade, Serbia)
+ - Na Lei (Dalian University of Technology, China)
+ - Zhuojun Liu (Chinese Academy of Sciences, China)
+ - Julien Narboux (University of Strasbourg, France)
+ - Pedro Quaresma (University of Coimbra, Portugal)
+ - Tomás Recio (University of Cantabria, Spain)
+ - Ileana Streinu (Smith College, USA)
+ - Thomas Sturm (CNRS, France)
+ - Dingkang Wang (Chinese Academy of Sciences, China)
+ - Chee K. Yap (New York University, USA)
+
+ Local Arrangements
+
+ - Xiaoyu Chen (Beihang University, China)
+ - Jing Yang (Guangxi University for Nationalities, China)
+
+ Publicity and Webmaster
+
+ - Fadoua Ghourabi (Ochanomizu University, Japan)
+
+More Information about ADG 2018 can be found at: http://adg2018.cc4cm.org/.
+

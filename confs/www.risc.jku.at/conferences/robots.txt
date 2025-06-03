@@ -1,0 +1,15 @@
+# robots.txt for http://www3.risc.uni-linz.ac.at/
+# See: http://web.nexor.co.uk/mak/doc/robots/norobots.html
+
+User-agent: ClaudeBot
+User-agent: PetalBot
+Disallow:  /
+
+# All other robots are welcome here!
+
+User-agent: *                # All other spiders should avoid 
+
+# afterwards disallow only unreasonable things
+Disallow:  /cgi-bin
+Disallow:  /bookmarks
+Disallow:  /test

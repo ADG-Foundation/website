@@ -1,0 +1,102 @@
+
+div#page_header_container {
+ margin: 0px;
+}
+
+div#page_header_container header {
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
+
+div#adg h1 {
+    font-size: 45px;
+    margin-right: 5px;
+}
+
+
+div#page_title h2 {
+  font-size: 14px;
+}
+
+
+div#upper_nav_fixed {
+  position: static;
+}
+
+
+div#upper_nav_buttons {
+ display: block;
+ overflow: auto;
+}
+
+button#nav_button {
+ display: block;
+ float: left;
+ clear: none;
+ padding: 5px 2px 2px 2px;
+ margin: 2px 0px 0px 13px;
+}
+
+button#nav_button img {
+ width: 45px;
+ height: 15px;
+}
+
+
+nav#upper_nav {
+  display: none;
+  position: static;
+  width: auto;
+  margin-left: 2px;
+  margin-top: 2px;
+  margin-right: 13px;
+  padding-left: 10px;
+}
+
+
+div.upper_nav_item {
+  position: static;
+  display: block;
+  padding-right: 20px;
+  background-color: rgb(50,50,50);
+  color: rgb(200,200,200);
+  text-decoration: none;
+  padding: 1px 0px 2px 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+
+div.upper_nav_item > a, div.upper_nav_item > a:visited {
+ padding-left: 10px;
+ padding-right: 10px;
+ width: auto;
+}
+
+div.upper_nav_item > a:hover {
+ background-color: rgb(44, 64, 63);
+ color: rgb(200,200,200);
+}
+
+div.upper_nav_item div.upper_nav_section {
+ position: static;
+ display: block;
+}
+
+div.upper_nav_item div.upper_nav_section a {
+  padding-left: 25px;
+}
+
+div.upper_nav_item > span {
+  color: rgb(120,120,120);
+  padding-left: 10px;
+  padding-right: 10px;
+  width: auto;
+}
+
+
+main {
+ margin: 0px 15px;
+}
+
+

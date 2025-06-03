@@ -1,0 +1,138 @@
+@import url(https://web.archive.org/web/20191027101626cs_/http://fonts.googleapis.com/css?family=Lobster&v2);
+@import url(https://web.archive.org/web/20191027101626cs_/http://fonts.googleapis.com/css?family=Josefin+Slab&v2);
+
+body {
+	background: #E1E7E7;
+	color: #516466;
+	font-family: Arial, sans-serif;
+}
+
+p, ul, li {
+	line-height: 180%;
+}
+
+.header-fill,
+#navigation ul.menu ul.sub-menu,
+#navigation div.menu ul.children {
+	background: #516466;
+}
+
+#navigation a {
+	color: #E1E7E7;
+	font-size: 11px;
+	text-decoration:none;
+	text-shadow:none;
+	display: block;
+	margin-top: 2px;
+}
+
+#navigation li.current_page_item > a,
+#navigation li.current_page_parent > a,
+#navigation li.current-menu-item > a,
+#navigation li.current-menu-parent > a {
+	font-weight: bold;
+}
+
+a {
+	color: #3B777F;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Droid Serif', sans-serif;
+	color: #3D4B4E;
+	font-weight: normal;
+	line-height: 130%;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	text-decoration: none;
+}
+
+#logo {
+	font-family: 'Lobster', sans-serif;
+	color: #FA6900;
+	font-size:48px;
+	text-shadow: 1px 1px 1px white;
+}
+
+#description {
+	margin-top: 6px;
+	color: #56411D;
+	font-family: 'Josefin Slab', sans-serif;
+	font-size: 13px;
+}
+
+.widget .heading {
+	font-family: 'Droid Serif', sans-serif;
+	color: #56411D;
+}
+
+.post-title {
+	font-size: 24px;
+	text-decoration: none;
+}
+.post-title a {
+	color: #3D4B4E;
+}
+
+.post-title.archive-post-title {
+	font-size: 18px;
+}
+
+.post-content .post-date a {
+	color: #516466;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.search-link {
+	color: #3B777F;
+	font-weight: bold;
+}
+
+.post-meta {
+	background: url('https://web.archive.org/web/20191027101626im_/http://dream.inf.ed.ac.uk/events/adg2012/wp-content/themes/san-fran/colors/darker/postmeta.png') top right no-repeat;
+	font-size: 11px;
+	color: #F3FFFE;
+	line-height: 22px;
+}
+
+.post-meta-mini {
+	background: url('https://web.archive.org/web/20191027101626im_/http://dream.inf.ed.ac.uk/events/adg2012/wp-content/themes/san-fran/colors/darker/postmeta.png') top right no-repeat;
+	font-size: 11px;
+	color: #F3FFFE;
+	line-height: 22px;
+}
+
+.post-meta a, .post-meta-mini a {
+	color: #F3FFFE;
+}
+
+#sidebar {
+	border-left: solid 1px #ccc;
+}
+/*
+     FILE ARCHIVED ON 10:16:26 Oct 27, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 07:56:43 Feb 03, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.791
+  exclusion.robots: 0.023
+  exclusion.robots.policy: 0.01
+  esindex: 0.013
+  cdx.remote: 44.811
+  LoadShardBlock: 119.899 (3)
+  PetaboxLoader3.datanode: 149.766 (5)
+  PetaboxLoader3.resolve: 215.561 (3)
+  load_resource: 265.203 (2)
+*/

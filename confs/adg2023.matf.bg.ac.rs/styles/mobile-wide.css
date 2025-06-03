@@ -1,0 +1,9 @@
+ 
+div#page_title {
+    margin-left: 0px;
+    margin-top: 7px;
+}
+
+main p, main li {
+ text-align: justify;
+}
