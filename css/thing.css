@@ -1,0 +1,66 @@
+body {
+	margin: auto;
+	font-family: "Computer Modern Sans";
+	max-width: 1000px;
+	padding: 10px;
+}
+
+h1,h2 {
+	text-align: center;
+}
+
+#list {
+	list-style-type: none;
+	font-size: 1.3em;
+}
+
+#list li {
+	display: inline-block;
+	width: 24%;
+	line-height: 2em;
+}
+#list a {
+	text-decoration: none;
+}
+
+#controls {
+	border: 1px solid #999;
+	margin: auto;
+	padding: 0 1em;
+	background: white;
+	width: 100px;
+}
+
+#size {
+	width: 3em;
+}
+
+.example {
+	margin-bottom: 3em;
+}
+
+#nav .download {
+	text-align: center;
+	font-size: 1.4em;
+}
+
+.download {
+	font-family: 'Computer Modern Sans';
+	margin-left: 1em;
+	font-style: normal;
+}
+
+pre {
+	font-size: 12px;
+	width: 600px;
+	background: #f8f8f8;
+	margin: 0 auto;
+	max-height: 20em;
+	overflow-y: auto;
+}
+
+.awardborder {
+        border-width: 25px;
+        border-color: #e79b49;
+        border-style: solid;
+}
