@@ -64,3 +64,11 @@ pre {
         border-color: #e79b49;
         border-style: solid;
 }
+
+table.fancy {
+  border-collapse: collapse;
+}
+
+tr:first-of-type {
+  border-bottom: 2px solid black;
+}
