@@ -1,0 +1,227 @@
+
+body { background-color:#ffffff; }
+
+body, table, ul, ol, li, td, tr { 
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+  	line-height: 1.25;      
+        text-align: justify;
+        vertical-align: top;
+}
+
+td.selected {
+  width: 70;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  background-color: #e0e0e0;
+  padding: 3px;
+}
+
+td.unselected {
+  width: 70;
+  text-align: center;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 3px;
+}
+
+h2, h3, h4, h5, h6 {
+	font-weight: bold;
+}
+h1 {
+        font-weight: normal;
+   	font-size: 55px;
+   	margin-top: 10px;
+}
+h2 {
+   	font-size: 20px;
+   	margin-top: 30px;
+}
+h3 {
+   	font-size: 16px;
+   	margin-top: 20px;
+   	margin-bottom: 10px;
+}
+
+hr { color:#b0b0b0; height:1; width:100%; border:0; background-color:#b0b0b0;}
+
+a:link, a:visited, a:hover, a:active {
+   text-decoration: none;
+}
+
+a:link, a:visited { color:blue; }
+a:hover, a:active { color:#ee8000; }
+
+a:link.button, a:visited.button { color:black; }
+a:hover.button, a:active.button { color:#ee8000; }
+
+a:link.ptitle, a:visited.ptitle { color:black; }
+a:hover.ptitle, a:active.ptitle { color:blue; }
+
+.tabp {
+  width:100%;
+  border-collapse: collapse;
+}
+
+.tabp td {
+  text-align: center;
+  border:1px solid #999999;
+  height: 30px;
+}
+
+td.lunch {
+  height: 60px;
+  background-color: #ffffdd;
+}
+
+td.pt {
+  height: 40px;
+  background-color: #ddffdd;
+}
+
+td.ms {
+  height: 80px;
+  background-color: #ddddff;
+}
+
+td.cb {
+  height: 30px;
+  background-color: #ffffdd;
+}
+
+td.sp {
+  background-color: #ffdddd;
+}
+
+
+
+td.plen {
+  background-color: #d9ffd9;
+  border:1px solid;
+  text-align: center;
+  padding: 6px;
+}
+
+td.other {
+  background-color: #ffffff;
+  border:1px solid;
+  text-align: center;
+  padding: 6px;
+}
+
+td.ms00 {
+  background-color: #ffffff;
+  color: #ffffff;
+  border:1px solid black;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms01 {
+  background-color: #7fff99;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms02 {
+  background-color: #cc99ff;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms03 {
+  background-color: #ff66ff;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms04 {
+  background-color: #b3997f;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms05 {
+  background-color: #ffff4c;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms06 {
+  background-color: #b3cc33;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms07 {
+  background-color: #66ffff;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms08 {
+  background-color: #99ccff;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms09 {
+  background-color: #ff9900;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms10 {
+  background-color: #ffccb3;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms11 {
+  background-color: #ff7f7f;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+td.ms12 {
+  background-color: #cccccc;
+  border:1px solid;
+  padding: 6px;
+  vertical-align: top;
+}
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+/*  width: 200px;*/
+  background-color: black;
+  color: #ffffff;
+  text-align: left;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
