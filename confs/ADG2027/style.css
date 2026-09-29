@@ -260,6 +260,27 @@ a:focus-visible {
   border-radius: 4px;
 }
 
+/* ---------- Sponsors ---------- */
+
+.sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 32px 56px;
+  padding: 24px 0 8px;
+}
+.sponsors a { display: block; line-height: 0; }
+.sponsors a:hover { text-decoration: none; }
+.sponsors img {
+  height: 80px;
+  width: auto;
+  max-width: 100%;
+  transition: opacity .15s ease;
+}
+.sponsors img.mono { filter: brightness(0); }   /* white-only logo → black */
+.sponsors a:hover img { opacity: .75; }
+
 /* ---------- Programme tables ---------- */
 
 .tabp {
